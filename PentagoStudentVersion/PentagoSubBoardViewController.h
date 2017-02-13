@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PentagoSubBoardViewController.h
 //  PentagoStudentVersion
 //
 //  Created by AAK on 2/17/14.
@@ -9,7 +9,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PentagoViewController.h"
 
-@interface ViewController : UIViewController
+@interface PentagoSubBoardViewController : UIViewController
+-(id) initWithSubsquare: (int) position :(PentagoViewController*) pPtr;
+
 
 @end

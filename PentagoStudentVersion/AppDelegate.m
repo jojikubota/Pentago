@@ -5,14 +5,25 @@
 //  Created by AAK on 2/17/14.
 //  Copyright (c) 2014 Ali Kooshesh. All rights reserved.
 //
+//  Modified by Joji Kubota & Jeffrey Teller on 9/24/14.
+//
 
 #import "AppDelegate.h"
+#import "PentagoViewController.h"
+
+@interface AppDelegate()
+
+@property(nonatomic) PentagoViewController *penViewController;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.penViewController = [[PentagoViewController alloc] init];
+    [self.window setRootViewController:self.penViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

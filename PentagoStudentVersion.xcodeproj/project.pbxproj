@@ -21,6 +21,12 @@
 		3E27FDB818B286CE00EAA085 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E27FD9A18B286CE00EAA085 /* UIKit.framework */; };
 		3E27FDC018B286CE00EAA085 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E27FDBE18B286CE00EAA085 /* InfoPlist.strings */; };
 		3E27FDC218B286CE00EAA085 /* PentagoStudentVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E27FDC118B286CE00EAA085 /* PentagoStudentVersionTests.m */; };
+		3E27FDCD18B2876500EAA085 /* PentagoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E27FDCC18B2876500EAA085 /* PentagoViewController.m */; };
+		3E27FDD018B287B000EAA085 /* PentagoSubBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E27FDCF18B287B000EAA085 /* PentagoSubBoardViewController.m */; };
+		3E27FDD318B2884E00EAA085 /* PentagoBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E27FDD218B2884E00EAA085 /* PentagoBrain.m */; };
+		3E27FDD718B288BE00EAA085 /* redMarble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E27FDD418B288BE00EAA085 /* redMarble.png */; };
+		3E27FDD818B288BE00EAA085 /* greenMarble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E27FDD518B288BE00EAA085 /* greenMarble.png */; };
+		3E27FDD918B288BE00EAA085 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E27FDD618B288BE00EAA085 /* grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		3E27FDBD18B286CE00EAA085 /* PentagoStudentVersionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PentagoStudentVersionTests-Info.plist"; sourceTree = "<group>"; };
 		3E27FDBF18B286CE00EAA085 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E27FDC118B286CE00EAA085 /* PentagoStudentVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PentagoStudentVersionTests.m; sourceTree = "<group>"; };
+		3E27FDCB18B2876500EAA085 /* PentagoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentagoViewController.h; sourceTree = "<group>"; };
+		3E27FDCC18B2876500EAA085 /* PentagoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentagoViewController.m; sourceTree = "<group>"; };
+		3E27FDCE18B287B000EAA085 /* PentagoSubBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentagoSubBoardViewController.h; sourceTree = "<group>"; };
+		3E27FDCF18B287B000EAA085 /* PentagoSubBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentagoSubBoardViewController.m; sourceTree = "<group>"; };
+		3E27FDD118B2884E00EAA085 /* PentagoBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentagoBrain.h; sourceTree = "<group>"; };
+		3E27FDD218B2884E00EAA085 /* PentagoBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentagoBrain.m; sourceTree = "<group>"; };
+		3E27FDD418B288BE00EAA085 /* redMarble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redMarble.png; sourceTree = "<group>"; };
+		3E27FDD518B288BE00EAA085 /* greenMarble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenMarble.png; sourceTree = "<group>"; };
+		3E27FDD618B288BE00EAA085 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +127,12 @@
 		3E27FD9C18B286CE00EAA085 /* PentagoStudentVersion */ = {
 			isa = PBXGroup;
 			children = (
+				3E27FDCB18B2876500EAA085 /* PentagoViewController.h */,
+				3E27FDCC18B2876500EAA085 /* PentagoViewController.m */,
+				3E27FDCE18B287B000EAA085 /* PentagoSubBoardViewController.h */,
+				3E27FDCF18B287B000EAA085 /* PentagoSubBoardViewController.m */,
+				3E27FDD118B2884E00EAA085 /* PentagoBrain.h */,
+				3E27FDD218B2884E00EAA085 /* PentagoBrain.m */,
 				3E27FDA518B286CE00EAA085 /* AppDelegate.h */,
 				3E27FDA618B286CE00EAA085 /* AppDelegate.m */,
 				3E27FDA818B286CE00EAA085 /* Main.storyboard */,
@@ -126,6 +147,9 @@
 		3E27FD9D18B286CE00EAA085 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E27FDD418B288BE00EAA085 /* redMarble.png */,
+				3E27FDD518B288BE00EAA085 /* greenMarble.png */,
+				3E27FDD618B288BE00EAA085 /* grid.png */,
 				3E27FD9E18B286CE00EAA085 /* PentagoStudentVersion-Info.plist */,
 				3E27FD9F18B286CE00EAA085 /* InfoPlist.strings */,
 				3E27FDA218B286CE00EAA085 /* main.m */,
@@ -196,7 +220,7 @@
 		3E27FD8B18B286CE00EAA085 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ali Kooshesh";
 				TargetAttributes = {
 					3E27FDB318B286CE00EAA085 = {
@@ -230,7 +254,10 @@
 			files = (
 				3E27FDAF18B286CE00EAA085 /* Images.xcassets in Resources */,
 				3E27FDA118B286CE00EAA085 /* InfoPlist.strings in Resources */,
+				3E27FDD718B288BE00EAA085 /* redMarble.png in Resources */,
+				3E27FDD818B288BE00EAA085 /* greenMarble.png in Resources */,
 				3E27FDAA18B286CE00EAA085 /* Main.storyboard in Resources */,
+				3E27FDD918B288BE00EAA085 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E27FDAD18B286CE00EAA085 /* ViewController.m in Sources */,
+				3E27FDD318B2884E00EAA085 /* PentagoBrain.m in Sources */,
+				3E27FDD018B287B000EAA085 /* PentagoSubBoardViewController.m in Sources */,
 				3E27FDA718B286CE00EAA085 /* AppDelegate.m in Sources */,
 				3E27FDA318B286CE00EAA085 /* main.m in Sources */,
+				3E27FDCD18B2876500EAA085 /* PentagoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +335,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +373,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +430,6 @@
 		3E27FDC918B286CE00EAA085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PentagoStudentVersion.app/PentagoStudentVersion";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +452,6 @@
 		3E27FDCA18B286CE00EAA085 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PentagoStudentVersion.app/PentagoStudentVersion";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +486,7 @@
 				3E27FDC718B286CE00EAA085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E27FDC818B286CE00EAA085 /* Build configuration list for PBXNativeTarget "PentagoStudentVersionTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +495,7 @@
 				3E27FDCA18B286CE00EAA085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

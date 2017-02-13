@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PentagoViewController.h
 //  PentagoStudentVersion
 //
 //  Created by AAK on 2/17/14.
@@ -10,6 +10,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+
+@interface PentagoViewController : UIViewController
+
+@property(nonatomic, strong) UILabel *iLabel;
+-(void) announceWinner: (NSInteger) winner;
 
 @end
